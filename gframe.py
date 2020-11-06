@@ -1,6 +1,9 @@
 templates = ["textadventure"]
 def inittext():
-  pass
+  import tkinter as tk
+  root = tk.Tk()
+  def register_stop(room,text,room_to):
+    pass
 def init():
   conf = open("game.conf")
   config = conf.read
